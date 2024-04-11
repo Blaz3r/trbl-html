@@ -49,9 +49,9 @@ body{
         .default-btn {
             padding: 15px 20px;
             background-color: #2cc76a;
+            background-color: auto;
             border-radius: 5px;
             list-style: none;
-            
         }
         .tank .default-btn:hover {
             background-color: #22bb5f;
@@ -117,10 +117,12 @@ body{
             list-style: none;
             height: 50px;
             line-height: 50px;
-            background-color: #e8e9ea;
-            color: #333;
+            background-color: #a1c9f1;
+            
             padding-left: 12px;
             height: auto;
+            border: 15px solid white;
+            border-radius: 10%;
             
         }
         
@@ -133,6 +135,8 @@ body{
             color: #fff;
             background-image: url(../img/tanks.jpg);
             padding: 50px 0;
+            border-radius: 30%;
+            border: 15px solid;
         }
         
         .plan .plan-btn {
@@ -142,7 +146,9 @@ body{
             height: 75px;
             line-height: 75px;
             cursor: pointer;
-        }
+            border: none;
+            
+            }
         
         
         .services-container {
